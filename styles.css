@@ -1,122 +1,50 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    
 }
 
 html {
     font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-.header-container{
-    display: flex;
-    justify-content: flex-end;
-    font-size: 1.6rem;
-    width: 94%;
-}
-
-.navbar{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.navbar__item {
-    list-style: none;
-    padding: 7%;
-    align-content: center;
-    margin-top: 7%;
-}
-
-.navbar-img {
-    width: 1.6rem;
-}
-
-.navbar-img2 {
-    width: 4rem;
-}
-
-.main-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.main-container__img {
-    display: flex;
-    align-items: center;
-    width: 35%;
-    margin-bottom: -1.5%;
-    margin-top: 5%;
-}
-
-.main-container__img__item {
-    width: 100%;
-    
-}
-
-.main-container__search-bar {
-    border: solid gray 0.5px;
-    border-radius: 20px;
-    width: 50%;
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    height: 5vh;
-    margin-bottom: 3.5%;
-}
-
-.main-container__search-bar__icon{
-    width: 4%;
-    padding: 1%;
-}
-
-.main-container__buttons {
-    font-size: 1.6rem;
-    width: 25%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.main-container__buttons a{
-    color: rgb(61, 61, 61);
+a {
     text-decoration: none;
+    cursor: pointer;
 }
 
-.footer-container{
+header {
     width: 100%;
-    font-size: 1.5rem;
-    position: absolute;
-    bottom: 0;
-    background-color: rgb(224, 224, 224);
+    height: 6.0rem;
 }
 
-.footer-container__left{
-    width: 50%;
-    display: inline-block; 
-}
-
-.footer-container__right {
-    width: 49%;
-    display: inline-block;
-}
-
-
-.footer-container__left .footer-ul {
-    display: flex;
-    justify-content: flex-start;
-    align-content: center; 
-}
-
-.footer-container__right .footer-ul {
+header nav {
     display: flex;
     justify-content: flex-end;
-    align-content: center; 
 }
 
-.footer-ul__item {
+header nav .nav-right-section {
+    width: 25rem;
+    height: auto;
+    display: flex;
     list-style: none;
-    padding: 1%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a{
+    margin-right: 1rem;
+    color: #000000;
+
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url();
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 1rem;
 }
