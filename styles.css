@@ -15,36 +15,19 @@ a {
     cursor: pointer;
 }
 
-header {
-    width: 100%;
-    height: 6.0rem;
+
+
+main {
+    margin-top: 15rem;
+    text-align: center;
 }
 
-header nav {
-    display: flex;
-    justify-content: flex-end;
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
 }
 
-header nav .nav-right-section {
-    width: 25rem;
-    height: auto;
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-}
-
-nav .nav-right-section a{
-    margin-right: 1rem;
-    color: #000000;
-
-}
-
-nav .nav-right-section .menu-icon {
-    background-image: url();
-}
-
-nav .nav-right-section img {
-    border-radius: 50%;
-    margin-left: 1rem;
+main .main-logo img {
+    width: 30rem;
 }
